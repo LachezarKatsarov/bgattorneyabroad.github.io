@@ -42,7 +42,7 @@
 
   p {
     color: #909090;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     line-height: 24px;
   }
@@ -75,6 +75,8 @@
     color: #ac8074;
     outline: none;
   }
+
+	
 
   ::-webkit-scrollbar{
     width: 8px;
@@ -483,7 +485,10 @@
     color: #ffffff;
   }
   
-
+#contact a:hover{
+    color: #333;
+    outline: none;
+  }
 
 
   /*---------------------------------------
