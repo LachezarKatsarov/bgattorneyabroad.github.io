@@ -7,7 +7,7 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
      <meta name="description" content="">
-     <meta name="keywords" content="">
+     <meta name="keywords" content="Attorney, Lawyer, Bulgarian, Abroad, Bulgarians">
      <meta name="author" content="Lachezar Katsarov">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -51,7 +51,7 @@
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="#top" class="smoothScroll">Начало</a></li>
-						 <li><a href="#feature" class="smoothScroll">Услуги</a></li>
+                         <li><a href="#feature" class="smoothScroll">Услуги</a></li>
                          <li><a href="#about" class="smoothScroll">За Нас</a></li>
                          <li><a href="#contact" class="smoothScroll">Контакти</a></li>
                     </ul>
@@ -158,21 +158,19 @@
                <div class="row">
 
                     <div class="col-md-6 col-sm-12">
-                         <form id="contact-form" role="form" action="" method="post">
+                         <form method="POST" action="php/Contact.php" name="EmailForm" id="contact-form">
                               <div class="section-title">
                                    <h2>Свържете се с нас <small></small></h2>
                               </div>
 
                               <div class="col-md-12 col-sm-12">
-                                   <input type="text" class="form-control" placeholder="Име и Фамилия" name="name" required="">
-                    
-                                   <input type="email" class="form-control" placeholder="Имейл" name="email" required="">
-
+                                   <input type="text" class="form-control" placeholder="Име и Фамилия" name="sender" required="">
+                                   <input  type="text" class="form-control" placeholder="Имейл" name="senderEmail" required="">
                                    <textarea class="form-control" rows="5" placeholder="Съобщение" name="message" required=""></textarea>
                               </div>
 
                               <div class="col-md-4 col-sm-12">
-                                   <input type="submit" class="form-control" name="send message" value="Изпрати Съобщение">
+                                   <input type="submit" class="form-control" name="submit" value="Изпрати Съобщение">
                               </div>
 
                          </form>
@@ -192,23 +190,17 @@
      <footer id="footer">
           <div class="container">
                <div class="row">
-
-                    
-
                     <div class="col-md-4 col-sm-6">
                          <div class="footer-info">
-							<div class="section-title">
-								<h2>Контакти</h2>
-							</div>
-							<address>
-								<p>адв. Елена Димитрова: +359 896 201 219 / <a href="mailto:ad_elena@abv.bg">ad_elena@abv.bg</a></p>
-								<p>адв. Емил Велинов: +359 888 944 095 / <a href="mailto:advokat@emilvelinov.com">advokat@emilvelinov.com</a></p>
-							</address>
-	
-							
+                              <div class="section-title">
+                                   <h2>Контакти</h2>
+                              </div>
+                              <address>
+                                   <p>адв. Елена Димитрова: +359 896 201 219 / <a href="mailto:ad_elena@abv.bg">ad_elena@abv.bg</a></p>
+                                   <p>адв. Емил Велинов: +359 888 944 095 / <a href="mailto:advokat@emilvelinov.com">advokat@emilvelinov.com</a></p>
+                              </address>	
                          </div>
                     </div>
-					
 					<div class="col-md-4 col-sm-6">
 						<div class="footer-info">
 						    <div class="section-title">
@@ -222,20 +214,15 @@
 						   </ul>
 						</div>
                     </div>
-					
 					<div class="col-md-4 col-sm-6">
                          <div class="footer-info">
                               <div class="copyright-text"> 
                                    <p>Copyright &copy; 2021 Bulgarian Attorney Abroad</p>
                                    
-                                   <p>Design: Lachezar Katsarov</p>
+                                   <p>Design: <a href="https://www.instagram.com/lachezarkacarov/" class="fa fa-instagram">_Lachezar Katsarov</a></p>
                               </div>
                          </div>
-                    </div>
-					
-					
-
-                    
+                    </div>  
                </div>
           </div>
      </footer>
