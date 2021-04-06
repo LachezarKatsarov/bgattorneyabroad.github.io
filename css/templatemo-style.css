@@ -489,6 +489,10 @@
     color: #333;
     outline: none;
   }
+  
+  #contact p, h2{
+	  padding-left:10px;
+  }
 
 
   /*---------------------------------------
